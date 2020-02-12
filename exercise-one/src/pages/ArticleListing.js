@@ -5,7 +5,7 @@ import Data from '../components/Data';
 function ArticleListing() {
     console.log('data', Data);
     return (
-        <div>
+        <div className="articleListing">
             <header>
                 <h1>Articles</h1>
             </header>
